@@ -23,3 +23,18 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('fazerLogin',(usuario, senha) =>{ 
+    // Só digita o usuário se o parâmetro não estiver vazio
+    if (usuario){
+        cy.get('[data-test="username"]').type(usuario)        
+    }
+
+    // Só digita a senha se o parâmetro não estiver vazia
+    if (senha){
+        cy.get('[data-test="password"]').type(senha)        
+    }
+
+    // O click sempre acontece
+    cy.get('[data-test="login-button"]').click()
+})
