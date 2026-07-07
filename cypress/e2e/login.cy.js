@@ -1,6 +1,6 @@
 describe('Suíte de Testes de Login - Saucedemo',() =>{
 
-    it('TC-LOGIN-001 = Deve realizar login com credenciais válidas',()=>{
+    it('TC-LOGIN-001 - Deve realizar login com credenciais válidas',()=>{
         // 1 - Acessar a página de login
         cy.visit('https://www.saucedemo.com/')
 
