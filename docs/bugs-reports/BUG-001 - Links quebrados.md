@@ -82,18 +82,3 @@ O problema afeta uma funcionalidade essencial do fluxo de compra. A correção d
 Descreva o tipo de evidência anexada:
 
 - Vídeo anexado mostrando o comportamento dos botões de adicionar e remover itens
-
----
-
-** 🧠 Observações (opcional)**
-- Bug é constante
-- Ocorre em todos os usuários ou apenas alguns?
-- Ocorre no usuario: "problem_user"
-- Existe algum padrão?
-- "Não"
----
----
-
-**🎯 Desafio**
-- Como você explicaria esse bug em 1 frase para um desenvolvedor?
-- Como você priorizaria isso dentro de um sprint com outros bugs?stackedit.io/).

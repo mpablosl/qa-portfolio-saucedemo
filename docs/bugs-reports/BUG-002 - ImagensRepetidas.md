@@ -83,13 +83,3 @@ Exemplo:
 `[Print anexado mostrando uma única foto em todos os produtos]`
 
 ---
-
-** 🧠 Observações (opcional)**
-- Bug é constante
-- Ocorre em todos os usuários ou apenas alguns?
-- Ocorre no usuario: "problem_user"
-- Existe algum padrão?
-- "Não"
----
----
-
