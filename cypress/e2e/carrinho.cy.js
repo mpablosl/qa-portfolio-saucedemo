@@ -3,7 +3,7 @@ describe ('Suíte de Testes de Carrinho - Saucedemo', () =>{
     // PRÉ-CONDIÇÃO: O usuário deve estar autentiacdo no sistema para realizar os testes do carrinho. Para isso, vamos utilizar o comando customizado "fazerLogin" que está localizado no arquivo cypress/support/commands.js
     beforeEach(() => {
         cy.visit('https://www.saucedemo.com/')
-        cy.fazerLogin('standard_user','secret_sauce')
+        cy.fazerLogin('standard_user','secret_sauce')        
     })
 
     it('TC-CARRINHO-001 - Adicionar um produto ao carrinho com sucesso', ()=>{
